@@ -1,6 +1,6 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class cover_small
+public class Thumbnail
 {
     String url;
 

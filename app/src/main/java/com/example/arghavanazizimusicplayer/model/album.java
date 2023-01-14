@@ -2,11 +2,11 @@ package com.example.arghavanazizimusicplayer.model;
 
 import java.util.List;
 
-public class album
+public class Album
 {
     String name;
-    List<artists> artists;
-    image image;
+    List<Artists> artists;
+    Image image;
     String releaseDate;
 
     public String getName() {
@@ -17,19 +17,19 @@ public class album
         this.name = name;
     }
 
-    public List<com.example.arghavanazizimusicplayer.model.artists> getArtists() {
+    public List<Artists> getArtists() {
         return artists;
     }
 
-    public void setArtists(List<com.example.arghavanazizimusicplayer.model.artists> artists) {
+    public void setArtists(List<Artists> artists) {
         this.artists = artists;
     }
 
-    public com.example.arghavanazizimusicplayer.model.image getImage() {
+    public Image getImage() {
         return image;
     }
 
-    public void setImage(com.example.arghavanazizimusicplayer.model.image image) {
+    public void setImage(Image image) {
         this.image = image;
     }
 

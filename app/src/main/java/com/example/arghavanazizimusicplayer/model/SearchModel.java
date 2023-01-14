@@ -4,7 +4,7 @@ public class SearchModel
 {
     String type;
     SongModelList song;
-    artists artist;
+    Artists artist;
     int position;
 
     public void setSong(SongModelList song) {
@@ -15,11 +15,11 @@ public class SearchModel
         return song;
     }
 
-    public artists getArtist() {
+    public Artists getArtist() {
         return artist;
     }
 
-    public void setArtist(artists artist) {
+    public void setArtist(Artists artist) {
         this.artist = artist;
     }
 

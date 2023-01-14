@@ -1,23 +1,23 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class audio
+public class Audio
 {
-    medium medium;
-    high high;
+    Medium medium;
+    High high;
 
-    public com.example.arghavanazizimusicplayer.model.medium getMedium() {
+    public Medium getMedium() {
         return medium;
     }
 
-    public void setMedium(com.example.arghavanazizimusicplayer.model.medium medium) {
+    public void setMedium(Medium medium) {
         this.medium = medium;
     }
 
-    public com.example.arghavanazizimusicplayer.model.high getHigh() {
+    public High getHigh() {
         return high;
     }
 
-    public void setHigh(com.example.arghavanazizimusicplayer.model.high high) {
+    public void setHigh(High high) {
         this.high = high;
     }
 }

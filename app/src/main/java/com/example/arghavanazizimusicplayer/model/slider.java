@@ -1,6 +1,6 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class slider
+public class Slider
 {
     String url;
 

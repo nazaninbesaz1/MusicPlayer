@@ -1,41 +1,41 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class image
+public class Image
 {
-    thumbnail_small thumbnail_small;
-    thumbnail thumbnail;
-    cover_small cover_small;
-    cover cover;
+    ThumbnailSmall thumbnailSmall;
+    Thumbnail thumbnail;
+    CoverSmall cover_small;
+    Cover cover;
 
-    public com.example.arghavanazizimusicplayer.model.thumbnail_small getThumbnail_small() {
-        return thumbnail_small;
+    public ThumbnailSmall getThumbnail_small() {
+        return thumbnailSmall;
     }
 
-    public void setThumbnail_small(com.example.arghavanazizimusicplayer.model.thumbnail_small thumbnail_small) {
-        this.thumbnail_small = thumbnail_small;
+    public void setThumbnail_small(ThumbnailSmall thumbnailSmall) {
+        this.thumbnailSmall = thumbnailSmall;
     }
 
-    public com.example.arghavanazizimusicplayer.model.thumbnail getThumbnail() {
+    public Thumbnail getThumbnail() {
         return thumbnail;
     }
 
-    public void setThumbnail(com.example.arghavanazizimusicplayer.model.thumbnail thumbnail) {
+    public void setThumbnail(Thumbnail thumbnail) {
         this.thumbnail = thumbnail;
     }
 
-    public com.example.arghavanazizimusicplayer.model.cover_small getCover_small() {
+    public CoverSmall getCover_small() {
         return cover_small;
     }
 
-    public void setCover_small(com.example.arghavanazizimusicplayer.model.cover_small cover_small) {
+    public void setCover_small(CoverSmall cover_small) {
         this.cover_small = cover_small;
     }
 
-    public com.example.arghavanazizimusicplayer.model.cover getCover() {
+    public Cover getCover() {
         return cover;
     }
 
-    public void setCover(com.example.arghavanazizimusicplayer.model.cover cover) {
+    public void setCover(Cover cover) {
         this.cover = cover;
     }
 }

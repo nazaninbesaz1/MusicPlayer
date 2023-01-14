@@ -1,11 +1,8 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class Medium
+public class CoverSmall
 {
-
     String url;
-
-
 
     public String getUrl() {
         return url;

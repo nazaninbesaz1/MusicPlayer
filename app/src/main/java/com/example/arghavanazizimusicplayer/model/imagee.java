@@ -2,51 +2,51 @@ package com.example.arghavanazizimusicplayer.model;
 
 import java.util.List;
 
-public class imagee
+public class Imagee
 {
-    List<slider> slider;
-    List<thumbnail_small> thumbnail_small;
-    List<thumbnail> thumbnail;
-    List<cover_small> cover_small;
-    List<cover> cover;
+    List<Slider> slider;
+    List<ThumbnailSmall> thumbnailSmall;
+    List<Thumbnail> thumbnail;
+    List<CoverSmall> cover_small;
+    List<Cover> cover;
 
-    public List<com.example.arghavanazizimusicplayer.model.slider> getSlider() {
+    public List<Slider> getSlider() {
         return slider;
     }
 
-    public void setSlider(List<com.example.arghavanazizimusicplayer.model.slider> slider) {
+    public void setSlider(List<Slider> slider) {
         this.slider = slider;
     }
 
-    public List<com.example.arghavanazizimusicplayer.model.thumbnail_small> getThumbnail_small() {
-        return thumbnail_small;
+    public List<ThumbnailSmall> getThumbnail_small() {
+        return thumbnailSmall;
     }
 
-    public void setThumbnail_small(List<com.example.arghavanazizimusicplayer.model.thumbnail_small> thumbnail_small) {
-        this.thumbnail_small = thumbnail_small;
+    public void setThumbnail_small(List<ThumbnailSmall> thumbnailSmall) {
+        this.thumbnailSmall = thumbnailSmall;
     }
 
-    public List<com.example.arghavanazizimusicplayer.model.thumbnail> getThumbnail() {
+    public List<Thumbnail> getThumbnail() {
         return thumbnail;
     }
 
-    public void setThumbnail(List<com.example.arghavanazizimusicplayer.model.thumbnail> thumbnail) {
+    public void setThumbnail(List<Thumbnail> thumbnail) {
         this.thumbnail = thumbnail;
     }
 
-    public List<com.example.arghavanazizimusicplayer.model.cover_small> getCover_small() {
+    public List<CoverSmall> getCover_small() {
         return cover_small;
     }
 
-    public void setCover_small(List<com.example.arghavanazizimusicplayer.model.cover_small> cover_small) {
+    public void setCover_small(List<CoverSmall> cover_small) {
         this.cover_small = cover_small;
     }
 
-    public List<com.example.arghavanazizimusicplayer.model.cover> getCover() {
+    public List<Cover> getCover() {
         return cover;
     }
 
-    public void setCover(List<com.example.arghavanazizimusicplayer.model.cover> cover) {
+    public void setCover(List<Cover> cover) {
         this.cover = cover;
     }
 }

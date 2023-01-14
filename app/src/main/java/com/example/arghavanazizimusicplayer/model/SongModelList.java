@@ -2,12 +2,13 @@ package com.example.arghavanazizimusicplayer.model;
 
 import java.util.List;
 
-public class DetailSongModel
+public class SongModelList
 {
     String id ;
     Album album;
     List<Artists> artists;
     Audio audio;
+
 
     boolean copyrighted ,
             localized;
@@ -19,15 +20,6 @@ public class DetailSongModel
 
     Image image;
     String releaseDate;
-    String lyrics;
-
-    public String getDownloadCount() {
-        return downloadCount;
-    }
-
-    public void setDownloadCount(String downloadCount) {
-        this.downloadCount = downloadCount;
-    }
 
     public String getId() {
         return id;
@@ -77,7 +69,13 @@ public class DetailSongModel
         this.localized = localized;
     }
 
+    public String getDownloadCount() {
+        return downloadCount;
+    }
 
+    public void setDownloadCount(String downloadCount) {
+        this.downloadCount = downloadCount;
+    }
 
     public int getDuration() {
         return duration;
@@ -101,14 +99,6 @@ public class DetailSongModel
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getLyrics() {
-        return lyrics;
-    }
-
-    public void setLyrics(String lyrics) {
-        this.lyrics = lyrics;
     }
 
     public Image getImage() {

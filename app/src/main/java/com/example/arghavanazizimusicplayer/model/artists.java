@@ -1,13 +1,13 @@
 package com.example.arghavanazizimusicplayer.model;
 
-public class artists
+public class Artists
 {
     String id;
     int followersCount;
     String fullName;
     String type;
     String sumSongsDownloadsCount;
-    image image;
+    Image image;
 
     public String getId() {
         return id;
@@ -49,11 +49,11 @@ public class artists
         this.sumSongsDownloadsCount = sumSongsDownloadsCount;
     }
 
-    public com.example.arghavanazizimusicplayer.model.image getImage() {
+    public Image getImage() {
         return image;
     }
 
-    public void setImage(com.example.arghavanazizimusicplayer.model.image image) {
+    public void setImage(Image image) {
         this.image = image;
     }
 }
