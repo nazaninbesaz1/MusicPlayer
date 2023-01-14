@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#AEE"
+
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundd"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_marginRight="10dp"
+                />
+
+                <TextView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="seaarch"
+                    android:textSize="20sp"
+                    android:textColor="#011270"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundd"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_moving_24"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top this"
+                    android:textSize="20sp"
+                    android:textColor="#011270"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest Song"
+                android:textSize="20sp"
+                android:textColor="#011270"
+                android:layout_gravity="center"
+            />
+
+            <ImageView
+                android:id="@+id/imgNewSong"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/cover1"
+                android:layout_marginTop="3dp"
+                android:scaleType="centerCrop"
+                />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trending Artist"
+                        android:textSize="20sp"
+                        android:textColor="#011270"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgTrendingArtist"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cover5"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerCrop"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="imgTop10DaySong"
+                        android:textSize="20sp"
+                        android:textColor="#011270"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgTop10DaySong"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cover3"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerCrop"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="imgTop10WeekSong"
+                        android:textSize="20sp"
+                        android:textColor="#011270"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgTop10WeekSong"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cover4"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerCrop"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
